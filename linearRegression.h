@@ -38,8 +38,7 @@ public:
     vector<double> predict_all(const vector<vector<double>>& X) const;
     double predict(const vector<double>& X) const;
     double evaluate(const vector<vector<double>>& X, const vector<double>& y) const;
-     // Function to calculate R² score
-     //double r2_score(const std::vector<double>& y_true, const std::vector<double>& y_pred) const;
+   
 };
 
 #endif
