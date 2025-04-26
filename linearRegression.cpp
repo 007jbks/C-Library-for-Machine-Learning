@@ -119,25 +119,6 @@ using namespace std;
         return preds;
     }
     
-    // double linearRegression::r2_score(const vector<double>& y_true, const vector<double>& y_pred)  const{
-    //     double mean_y = 0.0;
-    //     for (double val : y_true) {
-    //         mean_y += val;
-    //     }
-    //     mean_y /= y_true.size();
-    
-    //     double ss_tot = 0.0, ss_res = 0.0;
-    //     for (size_t i = 0; i < y_true.size(); i++) {
-    //         ss_tot += (y_true[i] - mean_y) * (y_true[i] - mean_y);
-    //         ss_res += (y_true[i] - y_pred[i]) * (y_true[i] - y_pred[i]);
-    //     }
-    
-    //     return 1 - (ss_res / ss_tot);
-    // }
-
-    // double LinearRegression::evaluate(const vector<vector<double>>& X, const vector<double>& y) const {
-    //     vector<double> preds = predict_all(X);
-    //     return r2_score(y, preds);
-    // }
+   
     
     
