@@ -5,10 +5,10 @@ This repository contains a C++ implementation of a Linear Regression algorithm(o
 
 The library includes:
 
-Linear Regression Implementation (using Gradient Descent)
+Linear Regression Implementation (using Gradient Descent) \n
 Logistic Regression Implemented 
 
 Testing Code to evaluate its performance on a simple dataset
 
-You can use this implementation to understand how Linear Regression works, or as a foundation for implementing more complex models and machine learning algorithms in C++.
+You can use this implementation to understand how these algorithms works, or as a foundation for implementing more complex models and machine learning algorithms in C++.
 
