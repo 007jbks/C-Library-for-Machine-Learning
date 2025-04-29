@@ -2,7 +2,7 @@
 
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall
-SRC = main.cpp linearRegression.cpp 
+SRC = test.cpp linearRegression.cpp logistic.cpp 
 OBJ = $(SRC:.cpp=.o)
 TARGET = main
 
