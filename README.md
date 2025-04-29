@@ -9,5 +9,6 @@ Linear Regression Implementation (using Gradient Descent)
 
 Testing Code to evaluate its performance on a simple dataset
 
-You can use this implementation to understand how Linear Regression works, or as a foundation for implementing more complex models and machine learning algorithms in C++.
+You can use this implementation to understand how these algorithms work, or as a foundation for implementing more complex models and machine learning algorithms in C++.
+
 
