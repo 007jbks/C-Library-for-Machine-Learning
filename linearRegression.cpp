@@ -46,14 +46,13 @@ using namespace std;
             vector<double> dldw(W.size(), 0.0); // Initialize gradient for each weight
             double dldb = 0.0; // gradient for bias
     
-            double total_loss=0;
+           
             
             for(size_t i =0;i<X.size();i++)
             {
                 double y_pred_i = 0;
                 y_pred_i += row_into_col(X[i],W) +bias;
-                total_loss+=mse(y_pred_i,y[i]);
-                
+              
                 vector<double> grads = dloss_dw(y_pred_i, y[i], X[i]);
                 for (size_t j = 0; j < grads.size(); j++)
                 {
@@ -63,7 +62,7 @@ using namespace std;
                 dldb += 2 * (y_pred_i - y[i]);
             }
             
-            total_loss/=X.size(); 
+          
             
             //Updating weights and biases:
             bias = bias - lr* (dldb/X.size());
@@ -82,9 +81,7 @@ using namespace std;
         return weights;
     }
 
-    double LinearRegression::mse(double predicted,double real){
-        return (1/2)*(predicted-real)*(predicted-real);
-    }
+ 
 
     double LinearRegression:: row_into_col(const vector<double>& row,const vector<double>& col) const
     {

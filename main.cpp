@@ -44,7 +44,7 @@ int main() {
     auto start = std::chrono::high_resolution_clock::now();
 
     // Train the model
-    model.train(X, y, 0.001, 1000);
+    model.train(X, y, 0.001, 500);
 
     // End timer
     auto end = std::chrono::high_resolution_clock::now();
